@@ -1,0 +1,46 @@
+.what-do {
+    padding-bottom: 94px;
+}
+
+.list-do {
+    display: flex;
+    justify-content: space-evenly;
+
+    &__item:last-child {
+        margin-right: 0;
+    }
+    
+    &__item {
+        display: block;
+         margin-right: 30px;
+    }
+    
+    &__wrapper {
+        position: relative;
+        line-height: 0;
+    }
+    
+    &__pharagraph {
+        position: absolute;
+         width: 100%;
+         height: 70px;
+        bottom: 0;
+    
+    
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    
+        font-family: $font-main;
+        font-weight: $weight-main;
+        font-size: $size-main;
+        line-height: $height-do;
+        text-align: center;
+        letter-spacing: $spacing-main;
+        text-transform: $transform-main;
+    
+        color: $pharagraph-color;
+        background: $pharagraph-background;
+    }
+}
+

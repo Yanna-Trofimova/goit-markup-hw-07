@@ -1,0 +1,18 @@
+.icon-about {
+
+    width: 270px;
+    height: 120px;
+    background-color: $icon-background;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__svg {
+            width: 70px;
+            height: 70px;
+        }
+}
+
+

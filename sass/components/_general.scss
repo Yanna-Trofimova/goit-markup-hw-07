@@ -1,0 +1,64 @@
+.what-do__title,
+.about__title {
+    font-weight: $weight-main;
+    font-size: $size-title;
+    line-height: $height;
+    text-align: center;
+    letter-spacing: $spacing-main;
+
+    margin-bottom: 50px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    color: $h-color;
+    background-color: $pharagraph-colo;
+
+    font-family: $font-main, sans-serif;
+    letter-spacing: $spacing-main;
+    font-weight: $weight-p;
+
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+ul,
+p {
+    margin: 0;
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+
+.ull {
+    list-style: none;
+    padding: 0;
+}
