@@ -1,4 +1,5 @@
 .what-do__title,
+.staff-title,
 .about__title {
     font-weight: $weight-main;
     font-size: $size-title;
@@ -23,7 +24,7 @@ html {
 
 body {
     color: $h-color;
-    background-color: $pharagraph-colo;
+    background-color: $pharagraph-color;
 
     font-family: $font-main, sans-serif;
     letter-spacing: $spacing-main;
@@ -61,4 +62,10 @@ p {
 .ull {
     list-style: none;
     padding: 0;
+}
+
+.about-paragraph,
+.staff-paragraph,
+.projects-paragraph {
+    color: $paragraph-about-list-color;
 }

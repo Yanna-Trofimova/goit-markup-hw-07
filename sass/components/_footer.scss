@@ -1,0 +1,162 @@
+.footer-logo {
+    display: block;
+
+    color: $pharagraph-color;
+
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+
+    text-decoration: none;
+
+    margin-bottom: 20px;
+
+    transform: scale(1);
+    transition: transform $transition-duration $timing-function;
+
+    &:hover,
+    &:focus {
+            transform: scale(1.1);
+        }
+    
+    & span {
+            color: $accent-color;
+        }
+}
+
+
+.footer {
+
+
+    background-color: #2F303A;
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+
+
+    &-continer {
+            display: flex;
+            align-items: baseline;
+        }
+    
+    
+    
+    &-list {
+            width: 231px;
+            padding: 0;
+    
+            color: $paragraph-about-list-color;
+    
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+    
+    
+            letter-spacing: 0.03em;
+    
+            font-style: normal;
+        }
+    
+    &-item:last-child {
+            margin-bottom: 0;
+        }
+    
+    &-address {
+            color: $pharagraph-color;
+            text-decoration: none;
+            margin-bottom: 9px;
+    
+            transform: scale(1);
+            transition: transform $transition-duration $timing-function, color $transition-duration $timing-function;
+        }
+    
+    &-address:hover,
+    &-address:focus {
+            color: $accent-color;
+    
+            transform: scale(1.1);
+        }
+    
+    &-contact {
+            margin-bottom: 9px;
+        }
+    
+    &-item {
+            margin-bottom: 9px;
+        }
+    
+     &-icons {
+            width: 206px;
+            height: 80px;
+            margin-left: 70px;
+        }
+    
+    &-icon-text {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+    
+            color: #FFFFFF;
+    
+            margin-bottom: 20px;
+        }
+    
+    
+    &-icon {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+    
+        }
+    
+    &-a {
+            width: 44px;
+            height: 44px;
+            justify-content: center;
+            display: flex;
+            align-items: center;
+    
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            border: none;
+    
+            color: #FFF;
+    
+            transform: scale(1);
+            transition: transform $transition-duration $timing-function, background-color $transition-duration $timing-function;
+        }
+
+    &-a:hover,
+    &-a:focus {
+                    background-color: $accent-color;
+        
+                    transform: scale(1.1);
+                }
+}
+
+.icon-footer-list {
+    display: flex;
+    justify-content: center;
+
+
+
+
+
+}
+
+.link-icon-footer {
+
+    margin-right: 10px;
+
+    &:last-child {
+            margin-right: 0;
+        }
+}
+
