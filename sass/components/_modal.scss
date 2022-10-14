@@ -11,16 +11,13 @@
     transition: opacity $transition-duration $timing-function;
 
     z-index: 1;
-
-
-
-    &.is-hidden {
-            opacity: 0;
-    
-            pointer-events: none;
-    }
 }
 
+.backdrop.is-hidden {
+    opacity: 0;
+
+    pointer-events: none;
+}
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.9);
@@ -43,34 +40,7 @@
     transition: transform $transition-duration $timing-function;
 
 
-
-    &-svg {
-            width: 18px;
-            height: 18px;
-    
-            fill: currentColor;
-    
-            transition: color $transition-duration $timing-function;
-    }
-
-    &-title {
-                    text-align: center;
-                    font-family: 'Roboto';
-            
-                    font-weight: 700;
-                    font-size: 20px;
-                    line-height: 23px;
-                    margin-top: 40px;
-                    margin-bottom: 13px;
-            
-                    letter-spacing: 0.03em;
-            
-                    color: #212121;
-                }
-        
-
 }
-
 
 .close-button {
     position: absolute;
@@ -93,16 +63,45 @@
 
     &:hover,
     &:focus {
-            transform: scale(1.1);
-        }
+        transform: scale(1.1);
+    }
 }
-
-
-
-
 
 .close-button:hover .modal-svg {
     color: $accent-color;
 }
+
+.modal-svg {
+    width: 18px;
+    height: 18px;
+
+    fill: currentColor;
+
+    transition: color $transition-duration $timing-function;
+}
+
+.modal-title {
+    text-align: center;
+    font-family: 'Roboto';
+
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 40px;
+    margin-bottom: 13px;
+
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+
+
+
+
+
+
+
+
 
 

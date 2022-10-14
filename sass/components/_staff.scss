@@ -3,59 +3,56 @@
 
     padding-top: 94px;
     padding-bottom: 94px;
+}
 
+.staff-list {
+    display: flex;
+    justify-content: center;
 
-    &-list {
-            display: flex;
-            justify-content: center;
-    
-        }
-    
-    &-item:last-child {
-            margin-right: 0;
-        }
-    
-    &-item {
-            background-color: #ffffff;
-            margin-right: 30px;
-    
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-            border-radius: 0px 0px 4px 4px;
-    
-    
-        }
-    
-    &-h {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.2;
-            /* identical to box height */
-    
-            text-align: center;
-            letter-spacing: 0.03em;
-    
-            margin-bottom: 10px;
-        }
-    
-    &-paragraph {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 1.2;
-            /* identical to box height */
-    
-            text-align: center;
-            letter-spacing: 0.03em;
-    
-            padding-bottom: 30px;
-        }
-    
-    &-img {
-            display: block;
-            margin-bottom: 30px;
-        }
 }
 
 
+.staff-item {
+    background-color: #ffffff;
+    margin-right: 30px;
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+
+    &:last-child {
+            margin-right: 0;
+        }
+
+}
+
+.staff-h {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 10px;
+}
+
+.staff-paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.2;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    padding-bottom: 30px;
+}
+
+.staff-img {
+    display: block;
+    margin-bottom: 30px;
+}
 
 .icon-staff-list {
     display: flex;
@@ -64,10 +61,6 @@
 
     padding-bottom: 30px;
 
-}
-
-.link-icon:last-child {
-    margin-right: 0;
 }
 
 
@@ -84,7 +77,9 @@
 
     margin-right: 10px;
 
-
+    &:last-child {
+            margin-right: 0;
+        }
 }
 
 .staff-a {

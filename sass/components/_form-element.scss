@@ -36,10 +36,7 @@
 }
 
 .input-info {
-    border: none;
-
-
-
+    outline: none;
 
     height: 40px;
     width: 100%;
@@ -49,10 +46,16 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 
-    transition: transform $transition-duration $timing-function;
+    transition: border $transition-duration $timing-function;
+
+    &:focus {
+            border: 1px solid $accent-color;
+        }
 }
 
 .comment {
+    outline: none;
+
     padding: 12px 16px;
 
     height: 120px;
@@ -64,6 +67,12 @@
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+
+    transition: border $transition-duration $timing-function;
+    
+        &:focus {
+            border: 1px solid $accent-color;
+        }
 }
 
 .form-element .comment::placeholder {
@@ -101,7 +110,6 @@
 .input-svg-info:focus>.input-info {
     color: $accent-color;
 
-
 }
 
 .form-chek {
@@ -112,6 +120,9 @@
 }
 
 .check-label {
+    display: flex;
+    align-items: center;
+
     font-family: 'Roboto';
 
     font-weight: 400;

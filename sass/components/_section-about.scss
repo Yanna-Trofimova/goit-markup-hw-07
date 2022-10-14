@@ -6,36 +6,38 @@
 .list-about {
     display: flex;
     flex-wrap: wrap;
+}
 
-    &__item {
-        width: 270px;
-        margin-right: 30px;
-    }
+.list-about__item{
+    width: 270px;
+    margin-right: 30px;
 
-    &__item:last-child {
-        margin-right: 0;
-    }
+    &:last-child {
+            margin-right: 0;
+        }
+}
 
-    &__item>h3 {
-        font-weight: $weight-main;
-        font-size: $size-main;
-        line-height: $height-h3;
-        letter-spacing: $spacing-main ;
-        text-transform: $transform-main;
-    }
 
-    &__item>p {
-        font-weight: $weight-p;
-        font-size: $size-main;
-        line-height: $height-p;
-        letter-spacing: $spacing-main;
-    }
 
-    &__title {
-        margin-bottom: 10px;
-    }
+.list-about__item>h3 {
+    font-weight: $weight-main;
+    font-size: $size-main;
+    line-height: $height-h3;
+    letter-spacing: $spacing-main ;
+    text-transform: $transform-main;
+}
 
-    &__paragraph {
-        color: $paragraph-about-list-color;
-    }
+.list-about__item>p {
+    font-weight: $weight-p;
+    font-size: $size-main;
+    line-height: $height-p;
+    letter-spacing: $spacing-main;
+}
+
+.list-about__title {
+    margin-bottom: 10px;
+}
+
+.list-about__paragraph {
+    color: $paragraph-about-list-color;
 }

@@ -1,4 +1,4 @@
-.icon-about {
+.icon-about{
 
     width: 270px;
     height: 120px;
@@ -9,8 +9,9 @@
     justify-content: center;
     align-items: center;
 
-    &__svg {
-        width: 70px;
-        height: 70px;
-    }
 }
+
+ .icon-about__svg{
+     width: 70px;
+     height: 70px;
+ }
